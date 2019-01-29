@@ -15,12 +15,12 @@
           md=6
         >
           <div
-            :style="{backgroundImage: '/img/Portrait.jpeg'}"
-            class="h-100 w-100"
+            style=" backgroundImage:url('/img/Portrait.jpeg') "
+            class="h-100 w-100 d-block"
           >
-
+a
           </div>
-          <img alt="Vue logo" src="../assets/General/Portrait.jpeg">
+          <!-- <img alt="Vue logo" src="../assets/General/Portrait.jpeg"> -->
           <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/> -->
         </b-col>
       </b-row>
