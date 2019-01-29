@@ -29,8 +29,8 @@ export default Vue.extend({
   },
   mounted () {
     json[this.uri] === undefined
-    ? this.pageNotFound = true
-    : this.page = json[this.uri]
+      ? this.pageNotFound = true
+      : this.page = json[this.uri]
     console.log(json)
   }
 })
