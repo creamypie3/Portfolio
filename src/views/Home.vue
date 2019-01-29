@@ -67,6 +67,11 @@ img {
 .height-50 {
   min-height: 50vh;
   max-height: 80vh;
+  background: black;
+  color: white;
+  a {
+    color: white;
+  }
 }
 .background-image {
   background-size: cover;

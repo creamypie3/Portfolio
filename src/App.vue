@@ -11,8 +11,12 @@
         <!-- Right aligned nav items, collapsed on mobile -->
         <b-navbar-nav class="ml-auto">
           <b-nav-item-dropdown text="Projects" right>
-            <b-dropdown-item href="/project/asd">PROJECT</b-dropdown-item>
-            <b-dropdown-item href="/project/asd">PROJECT</b-dropdown-item>
+            <b-dropdown-item
+              v-for="(page, key) in json"
+              :key="key"
+              :href="'project/' + key">
+              {{key}}
+            </b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item href="/about" right>About</b-nav-item>
         </b-navbar-nav>
@@ -35,3 +39,24 @@
   color: #2c3e50;
 }
 </style>
+
+<script lang="ts">
+import Vue from 'vue'
+var json = require('@/static/content.json')
+ // @ is an alias to /src
+
+export default Vue.extend({
+  name: 'home',
+  components: {
+  },
+  data () {
+    return {
+      json: {}
+    }
+  },
+  mounted () {
+    this.json = json
+    console.log(json)
+  }
+})
+</script>
