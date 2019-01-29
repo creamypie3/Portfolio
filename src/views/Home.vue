@@ -33,7 +33,7 @@ a
           sm=12
           md=6
         >
-          <a :href="'/projects/' + key">
+          <a :href="'/project/' + key">
             <img
               :src="'/img' + page.featuredImage"
             />

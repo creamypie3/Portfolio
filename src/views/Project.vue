@@ -28,7 +28,6 @@
       >
         <b-col
           class="project-block"
-
           v-if="block.type === 'text'"
           md="8"
           offset-md="2"
@@ -37,7 +36,6 @@
         </b-col>
         <b-col
           class="project-block"
-
           v-if="block.type === 'image'"
           md="8"
           offset-md="2"
@@ -45,7 +43,7 @@
           <div
             class="image-wrapper"
             v-for="image in block.images"
-            :key="image.url"
+            v-bind:key="image.url"
           >
             <img :alt="image.title" :src="'/img' + image.url">
           </div>
