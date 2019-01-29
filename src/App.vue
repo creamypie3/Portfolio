@@ -14,7 +14,7 @@
             <b-dropdown-item
               v-for="(page, key) in json"
               :key="key"
-              :href="'project/' + key">
+              :href="'/project/' + key">
               {{key}}
             </b-dropdown-item>
           </b-nav-item-dropdown>
