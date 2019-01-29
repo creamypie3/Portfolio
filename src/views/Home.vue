@@ -16,7 +16,7 @@
         >
           <div
             style=" backgroundImage:url('/img/Portrait.jpeg') "
-            class="h-100 w-100 d-block"
+            class="h-100 w-100 d-block background-image"
           >
 a
           </div>
@@ -26,23 +26,32 @@ a
       </b-row>
       <b-row
         class="height-50"
-        v-for="page in json"
+        v-for="(page, key) in json"
         :key="page.id"
       >
         <b-col
           sm=12
           md=6
         >
-          left
-          <img
-            :src="'/img' + page.featuredImage"
-          />
+          <a :href="'/projects/' + key">
+            <img
+              :src="'/img' + page.featuredImage"
+            />
+          </a>
         </b-col>
         <b-col
           sm=12
           md=6
+          class="dark"
         >
-        right
+          <a :href="'/project/' + key">
+            <h3>
+              {{page.title}}
+            </h3>
+            <p>
+              {{page.description}}
+            </p>
+          </a>
         </b-col>
       </b-row>
 
@@ -58,6 +67,10 @@ img {
 .height-50 {
   min-height: 50vh;
   max-height: 80vh;
+}
+.background-image {
+  background-size: cover;
+  background-position: center;
 }
 </style>
 
