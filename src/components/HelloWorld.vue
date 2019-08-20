@@ -13,7 +13,6 @@
 import Vue from 'vue'
 var json = require('@/static/content.json')
 
-
 export default Vue.extend({
   name: 'HelloWorld',
   props: {
@@ -36,7 +35,6 @@ export default Vue.extend({
 @import '../assets/variables.scss';
 
 .hello {
-  background: $primary-color;
   h3 {
     margin: 40px 0 0;
   }

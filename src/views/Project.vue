@@ -46,6 +46,11 @@
             v-bind:key="image.url"
           >
             <img :alt="image.title" :src="'/img' + image.url">
+            <p v-if="image.title.length>0"
+              class = "image-caption"
+              >
+                {{image.title}}
+            </p>
           </div>
         </b-col>
 
@@ -57,16 +62,23 @@
 
 <style lang="scss">
 .project-block {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   padding: 15px;
-  box-shadow: 0 13px 34px 0px lightgray;
-  font-size: 21px;
+  font-size: 16px;
+  text-align: justify;
   img {
     margin-bottom: 25px;
   }
-}
-</style>
+  .image-caption {
+  font-size: 12px;
+  text-align: left;
+  margin-top:-25px;
+  padding: 15px;
 
+}
+}
+
+</style>
 
 <script lang="ts">
 import Vue from 'vue'

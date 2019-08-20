@@ -1,33 +1,12 @@
 <template>
   <div id="app">
-
-    <b-navbar toggleable="md" type="dark" variant="dark" class="d-fixed">
-      <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-
-      <b-navbar-brand href="/">My New Website</b-navbar-brand>
-
-      <b-collapse is-nav id="nav_collapse">
-
-        <!-- Right aligned nav items, collapsed on mobile -->
-        <b-navbar-nav class="ml-auto">
-          <b-nav-item-dropdown text="Projects" right>
-            <b-dropdown-item
-              v-for="(page, key) in json"
-              :key="key"
-              :href="'/project/' + key">
-              {{key}}
-            </b-dropdown-item>
-          </b-nav-item-dropdown>
-          <b-nav-item href="/about" right>About</b-nav-item>
-        </b-navbar-nav>
-
-      </b-collapse>
-    </b-navbar>
-
+    <Header/>
     <!-- Dynamic Content -->
     <router-view />
 
+   <Footer/>
   </div>
+ 
 </template>
 
 <style lang="scss">
@@ -42,12 +21,16 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import Header from './Header.vue'
+import Footer from './Footer.vue'
 var json = require('@/static/content.json')
- // @ is an alias to /src
+// @ is an alias to /src
 
 export default Vue.extend({
   name: 'home',
   components: {
+    Header,
+    Footer
   },
   data () {
     return {
