@@ -27,6 +27,7 @@
     </b-navbar>
 
 </template>
+
 <style lang="scss">
 @import './assets/variables.scss';
     .d-fixed{
@@ -43,7 +44,9 @@
       }
     }
 </style>
+
 <script>
+var json = require("@/static/content.json");
 export default {
     name: 'Header'
 }

@@ -1,280 +1,319 @@
-{
-  "budgetCalculator": {
-    "id": 1,
-    "title": "TD Student Budget Calculator",
-    "active": true,
-    "description": "Calculate student education costs visually.",
-    "featuredImage": "/Projects/BudgetCalculator/green.png",
-    "client": "TD Canada Trust",
-    "clientUrl": "https://www.td.com/ca/en/personal-banking/",
-    "contributions": "Web design, UI/UX design",
-    "projectUrl": "",
-    "color": "#9ded98",
-    "html": [
-      {
-        "text": "During this summer, I had the opportunity to work as a UI/UX design intern at TD Bank’s innovation lab, TD Lab. Together with an agile team of designers, developers and business analysts, we rapidly built out prototypes and proof of concepts in rapid procession for the bank. Prototypes from the lab are then reviewed, with consideration into becoming full scale bank products for TD’s valued customers.",
-        "type": "text"
-      },
-      {
-        "type": "image",
-        "images": [
-          {
-            "url": "/Projects/BudgetCalculator/td-mockup.png",
-            "title": ""
-          }
-        ]
-      },
-      {
-        "text": "During our midterm hackathon we were presented with the problem statement of increasing TD’s engagement with undergraduate students to create a new product or service that would assist students with real issues, including budgeting and financial management. The goal was to solidify TD’s position as the student bank of choice and continue to build a reputation grounded in trust and reciprocity. Initially, this problem statement was presented to a senior class of business analysts students at Wilfrid Laurier University by TD Bank. They uncovered some key findings from focus groups.",
-        "type": "text"
-      },
-      {
-        "type": "image",
-        "images": [
-          {
-            "url": "/Projects/Hyperloop/4.gif",
-            "title": "My cool picture"
-          },
-          {
-            "url": "/Projects/Hyperloop/5.gif",
-            "title": "My cool picture"
-          }
-        ]
-      },
-      {
-        "text": "After analyzing the focus group findings further, my developer partner, Nhan Nyugen and I decided to focus on engaging students entering university, since we believed that this group best aligned with our problem statement. Initially, I had the idea to create an app that would help allow students to connect to and match with scholarship opportunities in order to better help students finance their education. This idea later involved to an application that would help students budget their associated costs and contribution for university. However, the problem became, how could I incentive users to download and use this app, when in reality, most people would only go this process once. I realized that this idea would prove to be better suited for a website and began looking into current budget calculators.",
-        "type": "text"
-      },
-      {
-        "text": "I then discovered TD’s current budget calculator which was a list of over 30 input forms. The input fields were extremely intimidating to look at and overall lacked intuition. For example, there was a field for tuition in months, this and other expenses added difficulties to the user’s experience. This calculator was the exact opposite of a beneficial tool and I became inspired to better design a product that was less intimidating, more efficient, and added value to the user’s experience. ",
-        "type": "text"
-      },
-      {
-        "text": "Based on my personal experience and from several informal interviews, I put together a quick customer journey map to better understand the expense of student researching, applying for, choosing and finally attending post-secondary. I discovered several pain points around financing their education and where to go to get the inside information about university, for example residence cost, as all of this data was scattered across the internet. Since the initial problem statement was so broad, I further narrowed down the problem statement.",
-        "type": "text"
-      },
-      {
-        "text": "The next key step was to identify what key information should be included in the calculator. This was extremely important, as I had to filter out what information what information would matter most to a student, and what was the best way of obtaining this knowledge. For example, most students wouldn’t know the exact cost of their tuition, but they would know their program and course load. Yet, knowing their tuition is still something the calculator needs to calculate their overall cost of education, and therefore, by asking for a user’s school, program and number of courses, we can calculate their tuition for them. In order to correctly gather this information, I reviewed the user interviews I conducted, as well as discussed the information with my fellow peers in order to gain feedback. ",
-        "type": "text"
-      },
-      {
-        "text": "Once I reiterated and was satisfied with the result, I laid out the steps and designed a flow. I considered the hierarchy of the information and the relationships between them. For example, for the residence flow, the next logical step would be the meal plan, as the two are associated with each other. I also included a summary page after all of the costs to give the user a break from the input fields and act as an overview of their progress so far.",
-        "type": "text"
-      },
-      {
-        "text": "Another area of opportunity with TD’s current design was the lack of actual assistance and use as a budgeting tool. With my partner, we discussed various ways to add value to the experience and make it easier for a student to go through the process. We realized that high school students don’t typically have much knowledge about numerous expenses, including textbooks, groceries and renting. I came up with the solution to include both type forms and buttons in our experience, with the buttons acting as suggestions for the user. This would aid users by increasing both the financial accuracy of the calculator, and the student tailored experience. I designed several wireframes and then reviewed them with others to gather feedback. I learned that users were more interested in the designs with the larger buttons, and that had a combination of both buttons and type fields.",
-        "type": "text"
-      },
-      {
-        "text": "In terms of the visual design and design language. I made the decision to stay true to TD’s image, with a younger twist. AsTD Lab’s goal is to provide an unrestricted environment for students to ideate, this meant that I was allowed to, and actually encouraged to break away from the standard TD green branding. However, when I reflected back on the problem statement and the overall goal of building TD’s brand trust in students I realized that the product should closely follow TD’s brand guidelines, but with a youthful and noninstitutionalized rebrand. In order to build TD’s relationship with students, the product should take the existing bank image, one with a very mature connotation and transition it into something students would find more visually appealing. I decided to keep green as the primary colour and a variety of very bold colours for the category elements that contribute to the bar.",
-        "type": "text"
-      },
-      {
-        "text": "The staff at TD Lab also really enjoyed our product and saw the applicable potential and we ended up winning the hackathon! We were then instructed that we had the next month to revamp our designs and build out our product for Innovation Council at TD. This would be an opportunity for us to travel to Toronto and TD Towers to present our product to a room of executives. I felt honoured to receive such an opportunity and devoted the next month to revamping the designs. The designs I had created from the hackathon provided me with a very solid base for the next stage of revision. I asked fellow colleagues and interns to comment and critique my designs one by one as I presented my content to them. I received very critical feedback as to both the visual design of the calculator, and the user’s journey.",
-        "type": "text"
-      },
-      {
-        "text": "I then worked on revising the designs with feedback, and I worked alongside Nhan to constantly be sharing my progress with him and I have always felt that the relationship between a developer and a designer is extremely crucial. As a developer myself, I understand the frustrations of the barriers involved in building a product including miscommunication, redundancies and wait time. However, we both worked well with each other and finalized our product in time for the council",
-        "type": "text"
-      },
-      {
-        "text": "I’m so grateful to have had this opportunity to work on a project with the possibility of it being scaled up to better serve TD’s customers. It was so refreshing to work in an environment that encourages creative collaboration with other interns and full time employees. I learned so much by working so aggressively on this project in such a short amount of time. I also enjoyed working with a partner on this particular project, and found that he was a really great support throughout the design process. As the project continues into its next stages, I will always be proud of my work on TD”s student budget calculator and will look out for when it rolls out into the market to help students just like me.",
-        "type": "text"
-      }
-    ]
+{  
+  "budgetCalculator":{  
+     "id":1,
+     "title":"TD Student Budget Calculator",
+     "active":true,
+     "description":"Calculate student education costs visually.",
+     "featuredImage":"/Projects/BudgetCalculator/green.png",
+     "client":"TD Canada Trust",
+     "clientUrl":"https://www.td.com/ca/en/personal-banking/",
+     "contributions":"Web design, UI/UX design",
+     "projectUrl":"",
+     "color":"#9ded98",
+     "html":[  
+        {  
+           "text":"During this summer, I had the opportunity to work as a UI/UX design intern at TD Bank’s innovation lab, TD Lab. Together with an agile team of designers, developers and business analysts, we rapidly built out prototypes and proof of concepts in rapid procession for the bank. Prototypes from the lab are then reviewed, with consideration into becoming full scale bank products for TD’s valued customers.",
+           "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/BudgetCalculator/td-mockup.png",
+                 "title":""
+              }
+           ]
+        },
+        {  
+           "text":"During our midterm hackathon we were presented with the problem statement of increasing TD’s engagement with undergraduate students to create a new product or service that would assist students with real issues, including budgeting and financial management. The goal was to solidify TD’s position as the student bank of choice and continue to build a reputation grounded in trust and reciprocity. Initially, this problem statement was presented to a senior class of business analysts students at Wilfrid Laurier University by TD Bank. They uncovered some key findings from focus groups.",
+           "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/BudgetCalculator/ig1.png",
+                 "title":""
+              },
+              {  
+                 "url":"/Projects/BudgetCalculator/ig2.png",
+                 "title":""
+              },
+              {  
+                 "url":"/Projects/BudgetCalculator/ig3.png",
+                 "title":""
+              }
+           ]
+        },
+        {  
+           "text":"After analyzing the focus group findings further, my developer partner, Nhan Nyugen and I decided to focus on engaging students entering university, since we believed that this group best aligned with our problem statement. Initially, I had the idea to create an app that would help allow students to connect to and match with scholarship opportunities in order to better help students finance their education. This idea later involved to an application that would help students budget their associated costs and contribution for university. However, the problem became, how could I incentive users to download and use this app, when in reality, most people would only go this process once. I realized that this idea would prove to be better suited for a website and began looking into current budget calculators.",
+           "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/BudgetCalculator/bmo.png",
+                 "title":"Bmo's student budget calculator"
+              },
+              {  
+                 "url":"/Projects/BudgetCalculator/cibc.png",
+                 "title":"Cibc's student budget calculator"
+              }
+           ]
+        },
+        {  
+           "text":"I then discovered TD’s current budget calculator which was a list of over 30 input forms. The input fields were extremely intimidating to look at and overall lacked intuition. For example, there was a field for tuition in months, this and other expenses added difficulties to the user’s experience. This calculator was the exact opposite of a beneficial tool and I became inspired to better design a product that was less intimidating, more efficient, and added value to the user’s experience. ",
+           "type":"text"
+        },
+        {  
+         "type":"image",
+         "images":[  
+            {  
+               "url":"/Projects/BudgetCalculator/tdbank.png",
+               "title":"TD's student budget calculator"
+            }
+         ]
+        },
+        {  
+           "text":"Based on my personal experience and from several informal interviews, I put together a quick customer journey map to better understand the expense of student researching, applying for, choosing and finally attending post-secondary. I discovered several pain points around financing their education and where to go to get the inside information about university, for example residence cost, as all of this data was scattered across the internet. Since the initial problem statement was so broad, I further narrowed down the problem statement.",
+           "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/BudgetCalculator/Copy of TD Student Budget.svg",
+                 "title":"Key points from user interviews"
+              },
+              {  
+                 "url":"/Projects/BudgetCalculator/Copy of TD Student Budget (1).svg",
+                 "title":"Customer journey map"
+              },
+              {  
+                 "url":"/Projects/BudgetCalculator/Copy of TD Student Budget (2).svg",
+                 "title":"Key information"
+              }
+              
+           ]
+        },
+        {  
+           "text":"The next key step was to identify what key information should be included in the calculator. This was extremely important, as I had to filter out what information what information would matter most to a student, and what was the best way of obtaining this knowledge. For example, most students wouldn’t know the exact cost of their tuition, but they would know their program and course load. Yet, knowing their tuition is still something the calculator needs to calculate their overall cost of education, and therefore, by asking for a user’s school, program and number of courses, we can calculate their tuition for them. In order to correctly gather this information, I reviewed the user interviews I conducted, as well as discussed the information with my fellow peers in order to gain feedback. ",
+           "type":"text"
+        },
+        {  
+           "text":"Once I reiterated and was satisfied with the result, I laid out the steps and designed a flow. I considered the hierarchy of the information and the relationships between them. For example, for the residence flow, the next logical step would be the meal plan, as the two are associated with each other. I also included a summary page after all of the costs to give the user a break from the input fields and act as an overview of their progress so far.",
+           "type":"text"
+        },
+        {  
+           "text":"Another area of opportunity with TD’s current design was the lack of actual assistance and use as a budgeting tool. With my partner, we discussed various ways to add value to the experience and make it easier for a student to go through the process. We realized that high school students don’t typically have much knowledge about numerous expenses, including textbooks, groceries and renting. I came up with the solution to include both type forms and buttons in our experience, with the buttons acting as suggestions for the user. This would aid users by increasing both the financial accuracy of the calculator, and the student tailored experience. I designed several wireframes and then reviewed them with others to gather feedback. I learned that users were more interested in the designs with the larger buttons, and that had a combination of both buttons and type fields.",
+           "type":"text"
+        },
+        {  
+           "text":"In terms of the visual design and design language. I made the decision to stay true to TD’s image, with a younger twist. AsTD Lab’s goal is to provide an unrestricted environment for students to ideate, this meant that I was allowed to, and actually encouraged to break away from the standard TD green branding. However, when I reflected back on the problem statement and the overall goal of building TD’s brand trust in students I realized that the product should closely follow TD’s brand guidelines, but with a youthful and noninstitutionalized rebrand. In order to build TD’s relationship with students, the product should take the existing bank image, one with a very mature connotation and transition it into something students would find more visually appealing. I decided to keep green as the primary colour and a variety of very bold colours for the category elements that contribute to the bar.",
+           "type":"text"
+        },
+        {  
+           "text":"The staff at TD Lab also really enjoyed our product and saw the applicable potential and we ended up winning the hackathon! We were then instructed that we had the next month to revamp our designs and build out our product for Innovation Council at TD. This would be an opportunity for us to travel to Toronto and TD Towers to present our product to a room of executives. I felt honoured to receive such an opportunity and devoted the next month to revamping the designs. The designs I had created from the hackathon provided me with a very solid base for the next stage of revision. I asked fellow colleagues and interns to comment and critique my designs one by one as I presented my content to them. I received very critical feedback as to both the visual design of the calculator, and the user’s journey.",
+           "type":"text"
+        },
+        {  
+           "text":"I then worked on revising the designs with feedback, and I worked alongside Nhan to constantly be sharing my progress with him and I have always felt that the relationship between a developer and a designer is extremely crucial. As a developer myself, I understand the frustrations of the barriers involved in building a product including miscommunication, redundancies and wait time. However, we both worked well with each other and finalized our product in time for the council",
+           "type":"text"
+        },
+        {  
+           "text":"I’m so grateful to have had this opportunity to work on a project with the possibility of it being scaled up to better serve TD’s customers. It was so refreshing to work in an environment that encourages creative collaboration with other interns and full time employees. I learned so much by working so aggressively on this project in such a short amount of time. I also enjoyed working with a partner on this particular project, and found that he was a really great support throughout the design process. As the project continues into its next stages, I will always be proud of my work on TD”s student budget calculator and will look out for when it rolls out into the market to help students just like me.",
+           "type":"text"
+        }
+     ]
   },
-  "cupped": {
-    "id": 2,
-    "title": "Cupped",
-    "active": true,
-    "description": "Coffee Review Platform",
-    "featuredImage": "/Projects/Cupped/cupped3.png",
-    "client": "Andrew McCann",
-    "clientUrl": "",
-    "contributions": "Web design, branding",
-    "projectUrl": "",
-    "color": "#c9d0d0",
-    "html": [
-      {
-        "text": "Cupped aims to become an online hub for coffee information, catering to all coffee drinkers. The idea is to be able to access real reviews of bags of coffee from your favourite roasters around the world on our website, so customers can buy confidently and waste less trying to get the best cup. Contributions can be made by posting reviews will eventually net you rewards and recognition, from gift cards to a free bag of coffee!When I first saw the initial vision for Cupped, I immediately reached out to Andrew and we began our collaboration. We envisioned a platform that would bring coffee lovers of all breaths of knowledge in a way that allowed them to interact and share. The problem became how do we create an interface that would be engaging with users of varied levels of interest in coffee.", 
-        "type": "text"
-      },
-      {
-        "text": "How might we create a platform that engages coffee lovers of all levels of knowledge and interest.", 
-        "type": "text"
-      },
-      
-      {
-        "type": "image",
-        "images": [
-          {
-            "url": "/Projects/Cupped/cupped7.png",
-            "title": ""
-          },
-          {
-            "url": "/Projects/Cupped/cupped3.png",
-            "title": ""
-          }
-        ]
-      },
-      {
-        "text": "In order to begin working on this project, I knew how crucial it would be to talk with coffee lovers and shape this platform alongside their passions. I knew that Cupped, due to its community nature would have to be a reflection of its community members. I created a survey to collect data from friends and family that fit within our target audience. I asked questions about their relationship to coffee to find out what entices them and what they would like to see. I collected a lot of use data especially regarding the layout of the platform that I applied later on. I then began figuring out the customer journey for purchasing beans from a roaster. After the initial empathy and observation research, I reviewed the pain points to discover opportunities to improve the user experience and to better define the problem statement. I especially focused on the user thoughts, and was driven by the user personas and focused on having a highly user attitude. I noticed that there were many potential opportunities surrounding the sharing of knowledge and communication between others.",
-        "type": "text"
-      },
-      {
-        "type": "image",
-        "images": [
-          {
-            "url": "/Projects/Cupped/usersurvey.png",
-            "title": "Data collected from user surveys"
-          },
-          {
-            "url": "/Projects/Cupped/cupped_map.jpg",
-            "title": "Customer journey map"
-          },
-          {
-            "url": "/Projects/Cupped/userpersona.png",
-            "title": "Three user personas created from the gathered data"
-          }
-          
-        ]
-      },
-      {
-        "text":"I then began the visual branding process. I reviewed other competitors and then.",
-        "type":"text"
-      },
-      {
-      "type": "image",
-        "images": [
-          {
-            "url": "/Projects/Cupped/competitors.png",
-            "title": "Coffee Review & Coffee Detective websites"
-          },
-          {
-            "url": "/Projects/Cupped/inspo.png",
-            "title": "Social platform inspiration"
-          },
-          {
-            "url": "/Projects/Cupped/cupped.png",
-            "title": "High fidelity flow"
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "images": [
-          {
-            "url": "/Projects/Cupped/mock.png",
-            "title": "Logo design"
-          },
-          {
-            "url": "/Projects/Cupped/cupped22.png",
-            "title": "Final logo design"
-          },
-          {
-            "url": "",
-            "title": "Brand Guidelines"
-          }
-          
-        ]
-      },
-      {
-        "type": "image",
-        "images": [
-          {
-            "url": "/Projects/Cupped/cup7.png",
-            "title": ""
-          },
-          {
-            "url": "/Projects/Cupped/cupped44.png",
-            "title": ""
-          },
-          {
-            "url": "/Projects/Cupped/cupped33.png",
-            "title": ""
-          }
-          
-        ]
-      },
-    
-      {
-        "text": "This was one of the first projects where I developed my design process and fiercely attacked a problem statement through user interviews and word clustering, in order to better define the problem statement and ensure that I was building to solve the right problem. I learned to refine my skills through designing this experience and be thoughtful of edge cases and various interactions between the user and the platform as well as user to user.",
-        "type": "text"
-      },
-      {
-        "type": "image",
-        "images": [
-          {
-            "url": "/Projects/Cupped/cupped5.png",
-            "title": "My cool picture"
-          }
-        ]
-      },
-      {
-        "text": "This was the first iteration of Cupped, and upon further feedback and testing with focus groups, the design will need to be refined and adjusted. A deeper consideration would be to further render the messaging feature between users, as well as to hear feedback from coffee roasters and to hear more of their perspective as clients to the platform. I look forward to continuing to work with Andrew and the team on Cupped and iterating on the current version. ",
-        "type": "text"
-      }
-    ]
+  "cupped":{  
+     "id":2,
+     "title":"Cupped",
+     "active":true,
+     "description":"Coffee Review Platform",
+     "featuredImage":"/Projects/Cupped/cupped3.png",
+     "client":"Andrew McCann",
+     "clientUrl":"",
+     "contributions":"Web design, branding",
+     "projectUrl":"",
+     "color":"#c9d0d0",
+     "html":[  
+        {  
+           "text":"Cupped aims to become an online hub for coffee information, catering to all coffee drinkers. The idea is to be able to access real reviews of bags of coffee from your favourite roasters around the world on our website, so customers can buy confidently and waste less trying to get the best cup. Contributions can be made by posting reviews will eventually net you rewards and recognition, from gift cards to a free bag of coffee!When I first saw the initial vision for Cupped, I immediately reached out to Andrew and we began our collaboration. We envisioned a platform that would bring coffee lovers of all breaths of knowledge in a way that allowed them to interact and share. The problem became how do we create an interface that would be engaging with users of varied levels of interest in coffee.",
+           "type":"text"
+        },
+        {  
+           "text":"How might we create a platform that engages coffee lovers of all levels of knowledge and interest.",
+           "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/Cupped/cupped7.png",
+                 "title":""
+              },
+              {  
+                 "url":"/Projects/Cupped/cupped3.png",
+                 "title":""
+              }
+           ]
+        },
+        {  
+           "text":"In order to begin working on this project, I knew how crucial it would be to talk with coffee lovers and shape this platform alongside their passions. I knew that Cupped, due to its community nature would have to be a reflection of its community members. I created a survey to collect data from friends and family that fit within our target audience. I asked questions about their relationship to coffee to find out what entices them and what they would like to see. I collected a lot of use data especially regarding the layout of the platform that I applied later on. I then began figuring out the customer journey for purchasing beans from a roaster. After the initial empathy and observation research, I reviewed the pain points to discover opportunities to improve the user experience and to better define the problem statement. I especially focused on the user thoughts, and was driven by the user personas and focused on having a highly user attitude. I noticed that there were many potential opportunities surrounding the sharing of knowledge and communication between others.",
+           "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/Cupped/usersurvey.png",
+                 "title":"Data collected from user surveys"
+              },
+              {  
+                 "url":"/Projects/Cupped/cupped_map.jpg",
+                 "title":"Customer journey map"
+              },
+              {  
+                 "url":"/Projects/Cupped/userpersona.png",
+                 "title":"Three user personas created from the gathered data"
+              }
+           ]
+        },
+        {  
+           "text":"I then began the visual branding process. I reviewed other competitors and then.",
+           "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/Cupped/competitors.png",
+                 "title":"Coffee Review & Coffee Detective websites"
+              },
+              {  
+                 "url":"/Projects/Cupped/inspo.png",
+                 "title":"Social platform inspiration"
+              },
+              {  
+                 "url":"/Projects/Cupped/cupped.png",
+                 "title":"High fidelity flow"
+              }
+           ]
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/Cupped/mock.png",
+                 "title":"Logo design"
+              },
+              {  
+                 "url":"/Projects/Cupped/cupped22.png",
+                 "title":"Final logo design"
+              },
+              {  
+                 "url":"",
+                 "title":"Brand Guidelines"
+              }
+           ]
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/Cupped/cup7.png",
+                 "title":""
+              },
+              {  
+                 "url":"/Projects/Cupped/cupped44.png",
+                 "title":""
+              },
+              {  
+                 "url":"/Projects/Cupped/cupped33.png",
+                 "title":""
+              }
+           ]
+        },
+        {  
+           "text":"This was one of the first projects where I developed my design process and fiercely attacked a problem statement through user interviews and word clustering, in order to better define the problem statement and ensure that I was building to solve the right problem. I learned to refine my skills through designing this experience and be thoughtful of edge cases and various interactions between the user and the platform as well as user to user.",
+           "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/Cupped/cupped5.png",
+                 "title":"My cool picture"
+              }
+           ]
+        },
+        {  
+           "text":"This was the first iteration of Cupped, and upon further feedback and testing with focus groups, the design will need to be refined and adjusted. A deeper consideration would be to further render the messaging feature between users, as well as to hear feedback from coffee roasters and to hear more of their perspective as clients to the platform. I look forward to continuing to work with Andrew and the team on Cupped and iterating on the current version. ",
+           "type":"text"
+        }
+     ]
   },
-  "shehacks": {
-    "id": 3,
-    "title": "SheHacks IV",
-    "active": true,
-    "description": "Designs for an all female hackathon",
-    "featuredImage": "/Projects/Wits/dev.png",
-    "client": "Women In Technology Society",
-    "clientUrl": "https://www.facebook.com/wits.uwo/?eid=ARAmWN51USauouCeuZ-Hb_oIOa7EZdVP-2zDlO4qwXnnKeD6Io-G_yV7uWRUZAPAsqkbFK1DGWskHN6R",
-    "contributions": "Branding, Illustrations, Web design",
-    "projectUrl": "",
-    "color": "#fcf3f0",
-    "html": [
-      {
-        "text": "An idea emerged back in the 20th century about a brand new mode of transport involving a magnetic pad to reduce friction. In 2012, when California was all about the California High-Speed Rail project, Elon Musk suggested Hyperloop. We want to show few cases for Hyperloop, which we made in the begining of 2018. So this interface is totally unique, with its own functionality and usability.",
-        "type": "text"
-      },
-      {
-        "type": "image",
-        "images": [
-          {
-            "url": "/Projects/Travel/1.gif",
-            "title": "My cool picture"
-          }
-        ]
-      },
-      {
-        "text": "Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
-        "type": "text"
-      },
-      {
-        "type": "image",
-        "images": [
-          {
-            "url": "/Projects/Travel/2.gif",
-            "title": "My cool picture"
-          },
-          {
-            "url": "/Projects/Travel/3.gif",
-            "title": "My cool picture"
-          }
-        ]
-      },
-      {
-        "text": "Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
-        "type": "text"
-      },
-      {
-        "type": "image",
-        "images": [
-          {
-            "url": "/Projects/Travel/4.gif",
-            "title": "My cool picture"
-          }
-        ]
-      },
-      {
-        "text": "Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
-        "type": "text"
-      }
-    ]
+  "shehacks":{  
+     "id":3,
+     "title":"SheHacks IV",
+     "active":true,
+     "description":"Designs for an all female hackathon",
+     "featuredImage":"/Projects/Wits/dev.png",
+     "client":"Women In Technology Society",
+     "clientUrl":"https://www.facebook.com/wits.uwo/?eid=ARAmWN51USauouCeuZ-Hb_oIOa7EZdVP-2zDlO4qwXnnKeD6Io-G_yV7uWRUZAPAsqkbFK1DGWskHN6R",
+     "contributions":"Branding, Illustrations, Web design",
+     "projectUrl":"",
+     "color":"#fcf3f0",
+     "html":[  
+        {  
+           "text":"An idea emerged back in the 20th century about a brand new mode of transport involving a magnetic pad to reduce friction. In 2012, when California was all about the California High-Speed Rail project, Elon Musk suggested Hyperloop. We want to show few cases for Hyperloop, which we made in the begining of 2018. So this interface is totally unique, with its own functionality and usability.",
+           "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/Travel/1.gif",
+                 "title":"My cool picture"
+              }
+           ]
+        },
+        {  
+           "text":"Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
+           "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/Travel/2.gif",
+                 "title":"My cool picture"
+              },
+              {  
+                 "url":"/Projects/Travel/3.gif",
+                 "title":"My cool picture"
+              }
+           ]
+        },
+        {  
+           "text":"Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
+           "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/Travel/4.gif",
+                 "title":"My cool picture"
+              }
+           ]
+        },
+        {  
+           "text":"Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
+           "type":"text"
+        }
+     ]
   }
 }
