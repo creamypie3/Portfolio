@@ -53,7 +53,25 @@
             </p>
           </div>
         </b-col>
-
+<b-col
+    class="project-block"
+    v-if="block.type === 'video'"
+    md="8"
+    offset-md="2"
+  >
+    <div
+      class="video-wrapper"
+      v-for="video in block.videos"
+      v-bind:key="video.url"
+    >
+      <img :alt="video.title" :src="'/img' + video.url">
+      <p v-if="video.title.length>0"
+        class = "image-caption"
+        >
+          {{video.title}}
+      </p>
+    </div>
+  </b-col>
       </b-row>
     </b-conatiner>
 
@@ -74,8 +92,16 @@
   text-align: left;
   margin-top:-25px;
   padding: 15px;
-
-}
+  }
+  video {
+    margin-bottom: 25px;
+  }
+  .video-caption {
+    font-size: 12px;
+    text-align: left;
+    margin-top:-25px;
+    padding: 15px;
+   }
 }
 
 </style>

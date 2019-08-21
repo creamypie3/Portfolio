@@ -1,10 +1,32 @@
 <template>
   <div class="home">
-    <b-container fluid class="p-0 hero">
-      <b-row class="height-50">
-        <b-col sm="12" md="12">
-          <img class="background-sky" src="../../public/img/Splash/splash.png" />
-          <img class="back-grass" src="../../public/img/Splash/splash1.png" />
+    <b-container fluid class="hero">
+      <b-row>
+        <b-col sm="12" md="12" cols="12" offset="0">
+          <section>
+            <figure>
+              <img class="background-sky" src="../../public/img/Splash/splash.png" />
+              <img class="character" src="../../public/img/Splash/splash3.png" />
+            </figure> 
+            <article>
+              <img class="back-grass" src="../../public/img/Splash/splash1.png" />
+              <img class="front-grass" src="../../public/img/Splash/splash2.png" />
+              <img class="green-table" src="../../public/img/Splash/splash4.png" />
+              <img class="lamp-post" src="../../public/img/Splash/splash5.png" />
+            </article>
+          </section>
+          <section>
+            <figure>
+              <img class="background-sky" src="../../public/img/Splash/splash.png" />
+              <img class="character" src="../../public/img/Splash/splash3.png" />
+            </figure> 
+            <article>
+              <img class="desk" src="../../public/img/Splash/desk.png" />
+              <img class="polaroid" src="../../public/img/Splash/polaroid.png" />
+              <img class="wall" src="../../public/img/Splash/room.png" />
+            </article>
+          </section>
+          
         </b-col>
       </b-row>
     </b-container>
@@ -76,17 +98,32 @@ img {
 }
 .hero {
   height: 600px;
+  img {
+    position: absolute;
+    left: 0px;
+    object-fit: cover;
+  }
   .background-sky {
     z-index: 0;
-    position: absolute;
-    object-fit: cover;
-    height: 600px;
   }
   .back-grass {
     z-index: 1;
-    position: relative;
-    object-fit: cover;
-    height: 600px;
+    top:50px;
+  }
+  .front-grass{
+    z-index: 2;
+    top: 100px;
+  }
+  .character {
+    z-index: 3;
+  }
+  .green-table{
+    z-index: 4;
+    top:150px;
+  }
+  .wall {
+    z-index: 5;
+    top: 800px;
   }
 }
 </style>
@@ -111,12 +148,46 @@ export default Vue.extend({
   mounted() {
     this.json = json;
     console.log(json);
+
     var image = document.getElementsByClassName("back-grass");
     var instance = new simpleParallax(image, {
       overflow: true,
-      scale: 1.4
+      scale: 1.8
     });
-  }
-});
-</script>
+    var image = document.getElementsByClassName("front-grass");
+      var instance = new simpleParallax(image, {
+        overflow: true,
+        scale: 1.4
+      });
+    var image = document.getElementsByClassName("");
+        var instance = new simpleParallax(image, {
+          overflow: true,
+          scale: 1.4
+        });
+    var image = document.getElementsByClassName("green-table");
+        var instance = new simpleParallax(image, {
+          overflow: true,
+          scale: 1.4
+      });
+    var image = document.getElementsByClassName("wall");
+      var instance = new simpleParallax(image, {
+        overflow: true,
+        scale: 2
+      });
+    var image = document.getElementsByClassName("lamp-post");
+        var instance = new simpleParallax(image, {
+          overflow: true,
+          scale: 2.2
+        });
+    var image = document.getElementsByClassName("");
+        var instance = new simpleParallax(image, {
+          overflow: true,
+          scale: 1.4
+      });
+    }
+  })
+
+
+  
+    </script>
 `

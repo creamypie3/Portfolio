@@ -32,15 +32,7 @@
            "type":"image",
            "images":[  
               {  
-                 "url":"/Projects/BudgetCalculator/ig1.png",
-                 "title":""
-              },
-              {  
-                 "url":"/Projects/BudgetCalculator/ig2.png",
-                 "title":""
-              },
-              {  
-                 "url":"/Projects/BudgetCalculator/ig3.png",
+                 "url":"/Projects/BudgetCalculator/ig-post.png",
                  "title":""
               }
            ]
@@ -83,18 +75,9 @@
            "type":"image",
            "images":[  
               {  
-                 "url":"/Projects/BudgetCalculator/Copy of TD Student Budget.svg",
-                 "title":"Key points from user interviews"
-              },
-              {  
                  "url":"/Projects/BudgetCalculator/Copy of TD Student Budget (1).svg",
                  "title":"Customer journey map"
-              },
-              {  
-                 "url":"/Projects/BudgetCalculator/Copy of TD Student Budget (2).svg",
-                 "title":"Key information"
               }
-              
            ]
         },
         {  
@@ -102,17 +85,69 @@
            "type":"text"
         },
         {  
+         "type":"image",
+         "images":[  
+            {  
+               "url":"/Projects/BudgetCalculator/Copy of TD Student Budget.svg",
+               "title":"Key points from user interviews"
+            },
+            {  
+               "url":"/Projects/BudgetCalculator/Copy of TD Student Budget (2).svg",
+               "title":"Key information"
+            }
+         ]
+      },
+        {  
            "text":"Once I reiterated and was satisfied with the result, I laid out the steps and designed a flow. I considered the hierarchy of the information and the relationships between them. For example, for the residence flow, the next logical step would be the meal plan, as the two are associated with each other. I also included a summary page after all of the costs to give the user a break from the input fields and act as an overview of their progress so far.",
            "type":"text"
+        },
+        {  
+           "type":"image",
+           "images":[  
+              {  
+                 "url":"/Projects/BudgetCalculator/hackathon_flow.png",
+                 "title":"Customer journey map"
+              }
+           ]
         },
         {  
            "text":"Another area of opportunity with TD’s current design was the lack of actual assistance and use as a budgeting tool. With my partner, we discussed various ways to add value to the experience and make it easier for a student to go through the process. We realized that high school students don’t typically have much knowledge about numerous expenses, including textbooks, groceries and renting. I came up with the solution to include both type forms and buttons in our experience, with the buttons acting as suggestions for the user. This would aid users by increasing both the financial accuracy of the calculator, and the student tailored experience. I designed several wireframes and then reviewed them with others to gather feedback. I learned that users were more interested in the designs with the larger buttons, and that had a combination of both buttons and type fields.",
            "type":"text"
         },
         {  
+         "type":"image",
+         "images":[  
+            {  
+               "url":"/Projects/BudgetCalculator/Copy of TD Student Budget (3).svg",
+               "title":"Wireframing"
+            },
+            {  
+               "url":"/Projects/BudgetCalculator/bar.jpg",
+               "title":"Designing the bar"
+            }
+         ]
+      },
+        {  
            "text":"In terms of the visual design and design language. I made the decision to stay true to TD’s image, with a younger twist. AsTD Lab’s goal is to provide an unrestricted environment for students to ideate, this meant that I was allowed to, and actually encouraged to break away from the standard TD green branding. However, when I reflected back on the problem statement and the overall goal of building TD’s brand trust in students I realized that the product should closely follow TD’s brand guidelines, but with a youthful and noninstitutionalized rebrand. In order to build TD’s relationship with students, the product should take the existing bank image, one with a very mature connotation and transition it into something students would find more visually appealing. I decided to keep green as the primary colour and a variety of very bold colours for the category elements that contribute to the bar.",
            "type":"text"
         },
+        {  
+         "type":"image",
+         "images":[  
+            {  
+               "url":"/Projects/BudgetCalculator/Copy of TD Student Budget (4).svg",
+               "title":"Key points from user interviews"
+            },
+            {  
+               "url":"/Projects/BudgetCalculator/Copy of TD Student Budget (5).svg",
+               "title":"Key information"
+            },
+            {  
+               "url":"/Projects/BudgetCalculator/Copy of TD Student Budget (6).svg",
+               "title":"Key information"
+            }
+         ]
+      },
         {  
            "text":"The staff at TD Lab also really enjoyed our product and saw the applicable potential and we ended up winning the hackathon! We were then instructed that we had the next month to revamp our designs and build out our product for Innovation Council at TD. This would be an opportunity for us to travel to Toronto and TD Towers to present our product to a room of executives. I felt honoured to receive such an opportunity and devoted the next month to revamping the designs. The designs I had created from the hackathon provided me with a very solid base for the next stage of revision. I asked fellow colleagues and interns to comment and critique my designs one by one as I presented my content to them. I received very critical feedback as to both the visual design of the calculator, and the user’s journey.",
            "type":"text"
@@ -122,9 +157,46 @@
            "type":"text"
         },
         {  
-           "text":"I’m so grateful to have had this opportunity to work on a project with the possibility of it being scaled up to better serve TD’s customers. It was so refreshing to work in an environment that encourages creative collaboration with other interns and full time employees. I learned so much by working so aggressively on this project in such a short amount of time. I also enjoyed working with a partner on this particular project, and found that he was a really great support throughout the design process. As the project continues into its next stages, I will always be proud of my work on TD”s student budget calculator and will look out for when it rolls out into the market to help students just like me.",
-           "type":"text"
-        }
+         "type":"image",
+         "images":[  
+            {  
+               "url":"/Projects/BudgetCalculator/home.png",
+               "title":"Key points from user interviews"
+            },
+            {  
+               "url":"/Projects/BudgetCalculator/school-details.png",
+               "title":"Key information"
+            },
+            {  
+               "url":"/Projects/BudgetCalculator/groceries.png",
+               "title":"Key information"
+            },
+            {  
+               "url":"/Projects/BudgetCalculator/contribution-summary.png",
+               "title":"Key information"
+            },
+            {  
+               "url":"/Projects/BudgetCalculator/income.png",
+               "title":"Key information"
+            },
+            {  
+               "url":"/Projects/BudgetCalculator/final-screen.png",
+               "title":"Key information"
+            }
+         ]
+      },
+      {
+         "videos":[
+            {
+               "url":"/Projects/BudgetCalculator/recording.mov",
+               "title":"Full demo run through"
+            }
+         ]
+      },
+      {  
+         "text":"I’m so grateful to have had this opportunity to work on a project with the possibility of it being scaled up to better serve TD’s customers. It was so refreshing to work in an environment that encourages creative collaboration with other interns and full time employees. I learned so much by working so aggressively on this project in such a short amount of time. I also enjoyed working with a partner on this particular project, and found that he was a really great support throughout the design process. As the project continues into its next stages, I will always be proud of my work on TD”s student budget calculator and will look out for when it rolls out into the market to help students just like me.",
+         "type":"text"
+      }
      ]
   },
   "cupped":{  
