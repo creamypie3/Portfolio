@@ -1,35 +1,30 @@
 <template>
   <div class="home">
-    <b-container fluid class="hero">
-      <b-row>
+    <section>
+    <b-container fluid class="p-0">
+      <b-row class="hero">
         <b-col sm="12" md="12" cols="12" offset="0">
-          <section>
-            <figure>
+            <figure class="background">
               <img class="background-sky" src="../../public/img/Splash/splash.png" />
+            </figure>
+            <figure class="foreground">
               <img class="character" src="../../public/img/Splash/splash3.png" />
             </figure> 
             <article>
               <img class="back-grass" src="../../public/img/Splash/splash1.png" />
               <img class="front-grass" src="../../public/img/Splash/splash2.png" />
+              <img class="lamp-post" src="../../public/img/Splash/splash5.png" /> 
               <img class="green-table" src="../../public/img/Splash/splash4.png" />
-              <img class="lamp-post" src="../../public/img/Splash/splash5.png" />
-            </article>
-          </section>
-          <section>
-            <figure>
-              <img class="background-sky" src="../../public/img/Splash/splash.png" />
-              <img class="character" src="../../public/img/Splash/splash3.png" />
-            </figure> 
-            <article>
-              <img class="desk" src="../../public/img/Splash/desk.png" />
-              <img class="polaroid" src="../../public/img/Splash/polaroid.png" />
               <img class="wall" src="../../public/img/Splash/room.png" />
-            </article>
-          </section>
-          
+              <img class="polaroid" src="../../public/img/Splash/polaroid.png" />
+              <img class="desk" src="../../public/img/Splash/desk.png" />
+              
+
+            </article> 
         </b-col>
       </b-row>
     </b-container>
+     </section>
     <b-container fluid class="p-0">
       <b-row class="height-50">
         <b-col sm="12" md="12">
@@ -75,6 +70,7 @@ img {
   width: 100%;
 }
 .height-50 {
+  display: block;
   min-height: 50vh;
   max-height: 80vh;
   background: white;
@@ -97,35 +93,83 @@ img {
   align-items: center;
 }
 .hero {
-  height: 600px;
-  img {
-    position: absolute;
-    left: 0px;
-    object-fit: cover;
-  }
-  .background-sky {
-    z-index: 0;
-  }
+  //overflow: hidden;
+
+
   .back-grass {
+    position: relative;
     z-index: 1;
-    top:50px;
+    top: 50px;
   }
   .front-grass{
+    position: relative;
     z-index: 2;
     top: 100px;
   }
-  .character {
+  .lamp-post {
+    position: relative;
     z-index: 3;
   }
   .green-table{
+    position: relative;
     z-index: 4;
     top:150px;
   }
   .wall {
-    z-index: 5;
+    position: relative;
+    z-index: 1;
     top: 800px;
   }
+  .desk{
+    position: relative;
+    z-index: 4;
+    top: 900px;
+  }
+  .polaroid{
+    position: relative;
+    z-index: 4;
+    top: 800px;
+  }
+ .foreground {
+   z-index: 3;
+ }
+  figure{
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  top: $top-offset;
+    .background{
+      z-index: -1;
+    }
+  img {
+    left:0px;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  @media screen and (min-width: $bp) {
+    position: sticky;
+  }
+  }
 }
+
+
+article {
+  margin: 0 auto;
+  z-index:1;
+}
+section {
+  margin: 0;
+  padding: 0;
+  &:not(:last-of-type) {
+    margin-bottom: $spacing;
+  }
+  
+}
+
 </style>
 
 <script>
@@ -148,7 +192,7 @@ export default Vue.extend({
   mounted() {
     this.json = json;
     console.log(json);
-
+    
     var image = document.getElementsByClassName("back-grass");
     var instance = new simpleParallax(image, {
       overflow: true,
@@ -178,12 +222,12 @@ export default Vue.extend({
         var instance = new simpleParallax(image, {
           overflow: true,
           scale: 2.2
-        });
+        }); 
     var image = document.getElementsByClassName("");
         var instance = new simpleParallax(image, {
           overflow: true,
-          scale: 1.4
-      });
+          scale: 1.
+      }); 
     }
   })
 
