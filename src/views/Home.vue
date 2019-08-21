@@ -97,38 +97,40 @@ img {
 
 
   .back-grass {
-    position: relative;
+    position: absolute;
     z-index: 1;
-    top: 50px;
+    top: 100vh;
   }
   .front-grass{
-    position: relative;
+    position: absolute;
     z-index: 2;
-    top: 100px;
+    top: 110vh;
   }
   .lamp-post {
-    position: relative;
+    position: absolute;
+    bottom: 160vh;
     z-index: 3;
   }
   .green-table{
-    position: relative;
+    position: absolute;
     z-index: 4;
-    top:150px;
+    top:140vh;
   }
   .wall {
-    position: relative;
+    position: absolute;
     z-index: 1;
-    top: 800px;
+    top: 200vh;
   }
   .desk{
-    position: relative;
+    position: absolute;
     z-index: 4;
-    top: 900px;
+    top: 197vh;
+    left: 0vh;
   }
   .polaroid{
     position: relative;
     z-index: 4;
-    top: 800px;
+    top: 5vh;
   }
  .foreground {
    z-index: 3;
@@ -196,17 +198,17 @@ export default Vue.extend({
     var image = document.getElementsByClassName("back-grass");
     var instance = new simpleParallax(image, {
       overflow: true,
-      scale: 1.8
+      scale: 2
     });
     var image = document.getElementsByClassName("front-grass");
       var instance = new simpleParallax(image, {
         overflow: true,
         scale: 1.4
       });
-    var image = document.getElementsByClassName("");
+    var image = document.getElementsByClassName("desk");
         var instance = new simpleParallax(image, {
           overflow: true,
-          scale: 1.4
+          scale: 1.8
         });
     var image = document.getElementsByClassName("green-table");
         var instance = new simpleParallax(image, {
@@ -216,17 +218,17 @@ export default Vue.extend({
     var image = document.getElementsByClassName("wall");
       var instance = new simpleParallax(image, {
         overflow: true,
-        scale: 2
+        scale: 1.5
       });
     var image = document.getElementsByClassName("lamp-post");
         var instance = new simpleParallax(image, {
           overflow: true,
-          scale: 2.2
+          scale: 2
         }); 
-    var image = document.getElementsByClassName("");
+    var image = document.getElementsByClassName("polaroid");
         var instance = new simpleParallax(image, {
           overflow: true,
-          scale: 1.
+          scale: 1.2
       }); 
     }
   })
