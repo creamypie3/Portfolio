@@ -53,29 +53,11 @@
             </p>
           </div>
         </b-col>
-<b-col
-    class="project-block"
-    v-if="block.type === 'video'"
-    md="8"
-    offset-md="2"
-  >
-    <div
-      class="video-wrapper"
-      v-for="video in block.videos"
-      v-bind:key="video.url"
-    >
-      <img :alt="video.title" :src="'/img' + video.url">
-      <p v-if="video.title.length>0"
-        class = "image-caption"
-        >
-          {{video.title}}
-      </p>
-    </div>
-  </b-col>
       </b-row>
     </b-conatiner>
-
+    <Next/>
   </div>
+
 </template>
 
 <style lang="scss">
@@ -109,12 +91,14 @@
 <script lang="ts">
 import Vue from 'vue'
 import HelloWorld from '@/components/HelloWorld.vue'
+import Next from '../Next.vue'
 var json = require('@/static/content.json')
 
 export default Vue.extend({
   name: 'project',
   components: {
-    HelloWorld
+    HelloWorld,
+    Next
   },
   data () {
     return {

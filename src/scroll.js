@@ -1,20 +1,21 @@
 $.fn.followTo = function (pos) {
-    var $this = this,
-        $window = $(window);
+  var $this = this
 
-    $window.scroll(function (e) {
-        if ($window.scrollTop() > pos) {
-            $this.css({
-                position: 'absolute',
-                top: pos
-            });
-        } else {
-            $this.css({
-                position: 'fixed',
-                top: 0
-            });
-        }
-    });
-};
+  var $window = $(window)
 
-$('#yourDiv').followTo(250);
+  $window.scroll(function (e) {
+    if ($window.scrollTop() > pos) {
+      $this.css({
+        position: 'absolute',
+        top: pos
+      })
+    } else {
+      $this.css({
+        position: 'fixed',
+        top: 0
+      })
+    }
+  })
+}
+
+$('#yourDiv').followTo(250)

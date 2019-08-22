@@ -1,5 +1,5 @@
 <template>
-    <b-navbar toggleable="md" type="dark" variant="light" class="d-fixed">
+    <b-navbar toggleable="md" type="dark" variant="white" class="d-fixed">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
       <b-navbar-brand href="/">
@@ -30,8 +30,15 @@
 
 <style lang="scss">
 @import './assets/variables.scss';
+  .bg-white{
+    background-color: white !important;
+    position: fixed !important;
+    top: 0px !important;
+    z-index: 10 !important;
+    width: 100%;
+  }
     .d-fixed{
-      background-color: $primary-background;
+      background-color: white;
     }
     .navbar-dark .navbar-nav .nav-link{
       color: black !important;
@@ -46,8 +53,8 @@
 </style>
 
 <script>
-var json = require("@/static/content.json");
+var json = require('@/static/content.json')
 export default {
-    name: 'Header'
+  name: 'Header'
 }
 </script>
